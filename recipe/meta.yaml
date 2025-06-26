@@ -78,6 +78,7 @@ outputs:
         - python/fastscapelib/tests
       requires:
         - pytest
+        - numba  # [py<313]
       imports:
         - fastscapelib
       commands:
